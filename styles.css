@@ -32,6 +32,7 @@ html {
 .octocat {
   border-bottom: 2px solid rgb(202, 200, 200);
   position: relative;
+  margin: 10px; /*added this change after, helps place the images better*/
 }
 
 .authors img {
@@ -90,9 +91,12 @@ img {
 .more-pictures {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex start;
-  flex-wrap: wrap; /*challenge 3*/
+  justify-content: space-between; 
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: gray;
+  flex-wrap: wrap; /*challenge 3*/ 
 }
 
 .image::before {
@@ -109,5 +113,7 @@ img {
 }
 
 .image {
+  border-bottom: 2px solid rgb(202, 200, 200);
   position: relative;
+  margin: 10px;/*added this change after, helps place the images better*/
 }
